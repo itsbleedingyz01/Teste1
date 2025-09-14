@@ -1,0 +1,10 @@
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/556ii/zzzzzzizzzzzz/d629b507937bc6e58367239d2f4e5e6cc92e1793/iiiiii19", true))()
+
+local window = library:AddWindow("Farming V1", {
+    main_color = mainColor,
+    min_size = Vector2.new(700, 650),
+    can_resize = false,
+    show_icon = false,
+})
